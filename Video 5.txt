@@ -1,0 +1,4 @@
+Video 5
+-------
+Shared Database
+--> Shared Database merupakan proses berbagi dan mengakses informasi yang terdapat dalam suatu database oleh beberapa pengguna atau sistem. Ini merupakan solusi ketika melakukan transisi dari aplikasi Monolith ke Microservices, Ketika bingung memecahkan data antar Service dan Ketika dikejar waktu, sehingga tidak ada waktu untuk bikin API mangkanya harus ada shared database.

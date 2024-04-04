@@ -1,0 +1,14 @@
+Video 8
+-------
+Messaging
+--> Masalah di komunikasi RPI yaitu : Proses lama (pada Email Service dan SMS Service), Mengirim data yang sama berkali-kali (pada Finance Service dan Report Service), Membuat Paralel Process sangat rumit.
+Komunikasi dengan cara messaging :
+- Messaging biasanya digunakan untuk komunikasi Async
+- Async artinya komunikasi dilakukan tanpa harus menunggu selesai di proses
+- Dalam async, kadang tidak perlu peduli balasan dari service yang dituju
+- Biasanya komunikasi Messaging membutuhkan Message Channel sebagai jembatan untuk mengirim dan menerima data
+- Direkomendasikan menggunakan aplikasi Message Broker untuk melakukan management Message Channel
+Sedangkan Message Broker seperti, Redis (PubSub), Apache Kafka, RabbitMQ, NSQ, Google PubSub dan Amazon Web Service SQS.
+Keuntungan menggunakan messaging yaitu :
+- Proses lebih cepat karena tidak harus menunggu response
+- Service pengirim data tidak perlu peduli terhadap penerima data

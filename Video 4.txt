@@ -1,0 +1,4 @@
+Video 4
+-------
+Databases per Service
+--> Decentralized databases merupakan database yang diinstal pada sistem yang secara geografis terletak di lokasi yang berbeda tetapi tidak terhubung melalui jaringan komunikasi data, seperti MysQl, Mongo, Postgre, Oracel. Setiap database memiliki servicenya masing-masing karena untuk memastikan bahwa antar service tidak bergantungan, tiap service bisa menggunakan aplikasi database sesuai dengan kebutuhan dan Service tidak perlu tahu kompleksitas internal database service lain.

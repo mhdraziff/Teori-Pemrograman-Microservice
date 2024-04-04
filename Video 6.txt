@@ -1,0 +1,18 @@
+Video 6
+-------
+NoSQL
+--> NoSQL (Not Only SQL) merupakan sistem manajemen basis data yang bersifat tanpa relasi (non-relational). Dengan pendekatan ini, NoSQL memungkinkan pengelolaan database dengan skema yang fleksibel dan tidak memerlukan query yang kompleks. Kita harus tau NoSQL Agar bisa disesuaikan dengan kebutuhan, Bisa mencari alternatif cara mengolah data dan Mempercepat dalam proses penulisan atau pencarian
+Jenis-jenis NoSQL :
+- Document Oriented Database
+- Key-Value  Database
+- Column Families Database
+- Graph Database
+- Search Database
+- Time Series Database
+Contoh NoSQL Database
+- MongoDB : Document Oriented Database 
+- Elasticsearch : Search Database
+- Redis : Key-Value Database
+- Apache Cassandra : Column Families Database
+- Neo4J : Graph Database
+- InfluxDB : Time Series Database

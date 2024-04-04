@@ -1,0 +1,19 @@
+Video 9
+-------
+--> Type of Microservices
+Stateless Microservice
+- Biasanya tidak memiliki database
+- Digunakan untuk melakukan tugas sederhana
+- Biasa digunakan juga sebagai utility untuk microservice lain
+- Tidak bergantung dengan microservice lain
+
+Persistence Microservice
+- Biasanya memiliki database 
+- Bisa juga disebut sebagai Master Data Microservice
+- Biasa digunakan untuk mengolah data di database (CRUD)
+
+Aggregation Microservices
+- Tergantung dengan microservice lain
+- Biasa digunakan sebagai pusat business logic aplikasi
+- Boleh memiliki database ataupun tidak
+- Tidak bisa berdiri sendiri

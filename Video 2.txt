@@ -1,0 +1,4 @@
+Video 2
+-------
+Arsitektur Monolith
+--> single deployment unit (buat aplikasi semua vitur di deflop di satu aplikasi) cirinya semua fitur dibuat didalam sebuah aplikasi besar. dari pengguna requis ke nginx , apalikasi di deploy dalam satu apk dan biasanya memiliki database. Kalau mau buat aplikasi lebih baik mulai dari aplikasi monolith baru bisa di ubah ke microservice, karena monolith mudah di develop, mudah di deploy, mudah di test dan mudah di scale. Kalau aplikasi microservice mau dirunnig harus banyakk aplikasi di running. Permasalahan untuk pindah ke microservice yaitu, mengintimidasi developer yang baru bergabung, scaling development dengan banyak developer agak menyulitkan, butuh kontrak panjang dengan teknologi yang digunakan (bahasa pemrograman, database, dan lain-lain), scaling pada bagian tertentu tidak bisa dilakukan, running app monolit sangant berat.

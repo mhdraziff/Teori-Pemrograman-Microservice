@@ -1,0 +1,4 @@
+Video 1
+-------
+Microservice
+--> Biasanya dipelajri oleh web programer, backend programmer, software architect, devops engineer. Microservice ini merupakan arsitektur kekinian, banyak teknologi baru yang buming mendukung ekosistem microservice, sudah banyak digunakan di the company, wajib untuk senior engineer sebagai peluang kerja.

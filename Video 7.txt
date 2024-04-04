@@ -1,0 +1,12 @@
+Video 7
+-------
+Remote Procedure Invocation
+--> Ketika service butuh data service lain. Cara order service mendapatkan data product, kita gunakan RPI.
+	Komunikasi antar service sebaiknya dilakukan melalui RPI(Remote Procedure Invocation) atau RCP( Remote Procedure Call) dan tidak direkomendasikan komunikasi dilakukan memalui via database. Contoh RPI :
+1. RestFUL API(HTTP)
+2. gPRC
+3. Apache Thrift
+4. SOAP
+5. Java RMI
+6. Corba (Common Object Request Broker Architecture)
+	Ketika service butuh data server lain kita bisa membuat RPI mengunakan Restful API Keuntungan menggunakan RPI yaitu,  sederhana dan mudah, biasanya digunakan untuk komunikasi request-replay, biasanya digunakan untuk proses Sync (yang butuh menunggu jawaban).
