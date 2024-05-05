@@ -1,0 +1,18 @@
+Api Gateway
+-----------
+--> Api gateway merupakan layanan terkelola sepenuhnya yang memudahkan pengembang untuk membuat, menerbitkan, memelihara, memantau, dan mengamankan API pada skala apa pun. Untuk mengekspos microservices ada beberapa masalah yang harus kita hadapi seperti : 
+- Semua service bisa diakses dari luar
+- Jika butuh Autentikasi, harus diimplementasikan di semua service
+- Rawan terjadi kebocoran data
+--> Api gateway adalah  aplikasi yang bertugas sebagai gerbang dari luar ke dalam. Luar yang dimaksud adalah akses dari internet, dan Dalam adalah aplikasi microservices. API Gateway bertugas sebagai proxy server ke semua aplikasi microservices. Aplikasi microservices hanya bisa diakses dari luar melalui API Gateway. Contoh Api Gateway seperti : Nginx, Apachel HTTPD, Kong,Netflix Zuul,Spring Cloud Gateway. Keuntungan dari Api Gateway ini :
+- Lebih aman karena satu gerbang
+- Service tidak perlu mengimplementasikan proses Autentikasi, cukup dilakukan di API Gateway
+- API Gateway juga bisa digunakan sebagai load balancer
+- Bisa digunakan sebagai rate limiter
+- Bisa digunakan sebagai pengaman sehingga error dari service tidak terekspos
+
+
+
+
+
+

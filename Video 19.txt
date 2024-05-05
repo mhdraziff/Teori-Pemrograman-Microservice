@@ -1,0 +1,13 @@
+Centralized Configuration
+-------------------------
+--> Konfigurasi adalah sesuatu yang tidak asing lagi saat membuat aplikasi. Tiap aplikasi biasanya memiliki konfigurasi, seperti konfigurasi database misalnya. Untuk menyimpan konfigurasi sebaiknya memperhatikan lokasi yang kita butuhkan suapya mudah di maintain dan digukan oleh aplikasi kita.
+Contoh Lokasi Konfigurasi yaitu, Database, File dan Environment Variable
+Centralized Configuration adalah pattern dimana kita menyimpan semua konfigurasi di sebuah aplikasi atau service
+Service yang butuh konfigurasi akan bertanya ke aplikasi tersebut untuk mendapatkan data konfigurasinya.
+Contoh Aplikasi Centralized Configuration yaitu, Hashicorp Consul https://www.consul.io/, Hashicorp Vault, https://www.vaultproject.io/, Etcd https://etcd.io/, Zookeeper https://zookeeper.apache.org/, Doozerd https://github.com/ha/doozerd.
+
+
+
+
+
+

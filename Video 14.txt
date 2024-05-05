@@ -1,0 +1,15 @@
+Backend for Frontend
+--------------------
+--> Backend for Frontend adalah menyediakan backend khusus untuk frontend tertentu. Biasanya satu backend akan melayani satu frontend secara specific
+Makin banyak jenis frontend, makin banyak backend yang dibuat
+Permasalahan Banyak Jenis Frontend
+- Tiap frontend punya mekanisme autentikasi berbeda
+- Kecepatan bandwidth tiap frontend berbeda
+- API yang dibutuhkan tiap frontend berbeda
+- Semua kebutuhan jenis frontend harus diimplementasikan di satu API Gateway
+Keuntungan Backend for Frontend yaitu, Pengembangan backend untuk tiap frontend bisa terisolasi satu sama lain dan Logic untuk frontend tidak tercampur di satu backend. 
+GraphQL : Alternative Backend for Frontend
+GraphQL adalah query language untuk API. GraphQL dapat digunakan untuk memanipulasi response API secara runtime. Frontend bebas menentukan data apa aja yang ingin didapatkan. Backend hanya perlu menyediakan data lengkap, dan Frontend bisa dengan bebas menentukan data apa aja yang diinginkan. Kekurangan Menggunakan GraphQL yaitu, Butuh melakukan development GraphQL Server di Backend dan butuh melakukan development GraphQL Client di Frontend
+
+
+

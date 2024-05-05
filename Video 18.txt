@@ -1,0 +1,5 @@
+Service Registry
+----------------
+--> Service Registry  adalah aplikasi yang digunakan sebagai tempat untuk menyimpan semua informasi yang berhubungan dengan lokasi service. Semua service akan meregistrasikan alamat lokasi nya di Service Registry  ketika pertama kali nyala. Semua service akan laporan ke Service Registry  jika akan berhenti beroperasi, sehingga Service Registry  akan menghilangkan informasi service tersebut agar tidak mendapat traffic dari service yang bertanya. Contoh Aplikasi Service Registry yaitu, Hashicorp Consul https://www.consul.io/ dan Netflix Eureka https://github.com/Netflix/eureka
+
+
